@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/clickygame/static/css/main.b01112b0.chunk.css",
+    "main.js": "/clickygame/static/js/main.b39236ee.chunk.js",
+    "main.js.map": "/clickygame/static/js/main.b39236ee.chunk.js.map",
+    "runtime~main.js": "/clickygame/static/js/runtime~main.473dc39e.js",
+    "runtime~main.js.map": "/clickygame/static/js/runtime~main.473dc39e.js.map",
+    "static/js/2.fe5b97bd.chunk.js": "/clickygame/static/js/2.fe5b97bd.chunk.js",
+    "static/js/2.fe5b97bd.chunk.js.map": "/clickygame/static/js/2.fe5b97bd.chunk.js.map",
+    "index.html": "/clickygame/index.html",
+    "precache-manifest.378de1509a024c19970be0e94be8676e.js": "/clickygame/precache-manifest.378de1509a024c19970be0e94be8676e.js",
+    "service-worker.js": "/clickygame/service-worker.js",
+    "static/css/main.b01112b0.chunk.css.map": "/clickygame/static/css/main.b01112b0.chunk.css.map",
+    "static/media/HeroDiv.css": "/clickygame/static/media/pokemonBackground.eeb1e900.jpg"
+  }
+}
