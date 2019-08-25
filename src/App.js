@@ -14,8 +14,8 @@ import './App.css';
       score:0
     };
     
-    imgClick = (id) => {
-      alert('Img :' + id);
+    imgClick = () => {
+      alert('Img clicked id:');
     };
 
   render(){
@@ -27,11 +27,12 @@ import './App.css';
           {pokemonList.map(pokemonImg => (
             <Pokemon
               key = {pokemonImg.id}
+              id = {pokemonImg.id}
               image = {pokemonImg.image}
               name = {pokemonImg.name}
               imgClick = {this.imgClick}
             />
-          ))};
+          ))}
         </div>
       </div>
     );
