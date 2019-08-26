@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/clickygame/static/css/main.5109171b.chunk.css",
-    "main.js": "/clickygame/static/js/main.aca18457.chunk.js",
-    "main.js.map": "/clickygame/static/js/main.aca18457.chunk.js.map",
+    "main.js": "/clickygame/static/js/main.271f1312.chunk.js",
+    "main.js.map": "/clickygame/static/js/main.271f1312.chunk.js.map",
     "runtime~main.js": "/clickygame/static/js/runtime~main.473dc39e.js",
     "runtime~main.js.map": "/clickygame/static/js/runtime~main.473dc39e.js.map",
     "static/js/2.b7b2bd22.chunk.js": "/clickygame/static/js/2.b7b2bd22.chunk.js",
     "static/js/2.b7b2bd22.chunk.js.map": "/clickygame/static/js/2.b7b2bd22.chunk.js.map",
     "index.html": "/clickygame/index.html",
-    "precache-manifest.d4beb054b8bda8e3eadb356fe00b3cba.js": "/clickygame/precache-manifest.d4beb054b8bda8e3eadb356fe00b3cba.js",
+    "precache-manifest.dc6ff7422f1a49da0b72e572b111cf74.js": "/clickygame/precache-manifest.dc6ff7422f1a49da0b72e572b111cf74.js",
     "service-worker.js": "/clickygame/service-worker.js",
     "static/css/main.5109171b.chunk.css.map": "/clickygame/static/css/main.5109171b.chunk.css.map",
     "static/media/HeroDiv.css": "/clickygame/static/media/pokemonBackground.eeb1e900.jpg"
