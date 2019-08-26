@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 
-function Header(){
+function Header(props){
     return(
       
         
@@ -15,8 +15,8 @@ function Header(){
                 <div className="col-sm-4">
                     <div id="scroeDiv">
                         <p>
-                            Score : <span>0</span> ||
-                            Top Score: <span>10</span>
+                            Score : <span>{props.score}</span> ||
+                            Top Score: <span>{props.topScore}</span>
                         </p>
                     </div>
                 </div>

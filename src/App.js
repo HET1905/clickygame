@@ -11,26 +11,55 @@ import './App.css';
 // function App() {
   class App extends Component{
     state={
-      score:0
+      pokemonList,
+      score:0,
+      imgAlreadyClicked :[],
+      topScore:0
     };
     
     imgClick = (id) => {
-      alert('Img clicked id:' + id);
+      
+      if(this.state.imgAlreadyClicked.includes(id)){
+        alert(`already img clicked`);
+      }else{
+        this.state.imgAlreadyClicked.push(id);
+        this.setState({
+          score : this.state.score + 1
+        });
+        if(this.state.score>this.state.topScore){
+          this.setState({
+            topScore:this.state.score
+            
+          })
+        }
+      }
+            
+            this.state.pokemonList.sort(() => Math.random() - 0.9);
+           
+            console.log(this.state.imgAlreadyClicked);
+            console.log("Scroe : " + this.state.score);
+     
     };
+
+    // shuffle=pokemonList=> {
+    //   this.state.pokemonList.sort(() => Math.random() - 0.5);
+    // }
 
   render(){
     return (
       <div className="container-fluid">
-        <Header/>
+        <Header score = {this.state.score} topScore = {this.state.topScore} />
         <HeroDiv />
         <div id="imgOuterDiv">
-          {pokemonList.map(pokemonImg => (
+          {this.state.pokemonList.map(pokemonImg => (
             <Pokemon
               key = {pokemonImg.id}
               id = {pokemonImg.id}
+              clcikCount = {pokemonImg.clcikCount}
               image = {pokemonImg.image}
               name = {pokemonImg.name}
               imgClick = {this.imgClick}
+              score = {this.score}
             />
           ))}
         </div>
