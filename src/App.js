@@ -14,8 +14,8 @@ import './App.css';
       score:0
     };
     
-    imgClick = () => {
-      alert('Img clicked id:');
+    imgClick = (id) => {
+      alert('Img clicked id:' + id);
     };
 
   render(){
