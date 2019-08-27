@@ -2,7 +2,6 @@
   {
     "id": 1,
     "name": "pikachu",
-    "clickCount":0,
     "image":
       "https://static.turbosquid.com/Preview/2016/07/14__13_34_28/Pikachu_01.png800DA07A-6216-463C-91E0-FF98A9557134Original.jpg"
    
@@ -10,7 +9,6 @@
   {
     "id": 2,
     "name": "eevee",
-    "clickCount":0,
     "image":
       "https://i.pinimg.com/originals/c9/97/5f/c9975fb71e94b1f42970829a457fd871.png"
     
@@ -18,7 +16,6 @@
   {
     "id": 3,
     "name": "gyarados",
-    "clickCount":0,
     "image":
       "https://cdn.bulbagarden.net/upload/4/41/130Gyarados.png"
     
@@ -26,7 +23,6 @@
   {
     "id": 4,
     "name": "victini",
-    "clickCount":0,
     "image":
       "https://vignette.wikia.nocookie.net/kndthegamewizardsaga/images/4/45/Victini.png/revision/latest?cb=20170915051259"
     
@@ -34,7 +30,6 @@
   {
     "id": 5,
     "name": "snorlax",
-    "clickCount":0,
     "image":
       "https://vignette.wikia.nocookie.net/sonicpokemon/images/9/94/Snorlax_AG_anime.png/revision/latest?cb=20130621040305"
     
@@ -42,7 +37,6 @@
   {
     "id": 6,
     "name": "dragonite",
-    "clickCount":0,
     "image":
       "https://assets.pokemon.com/assets/cms2/img/pokedex/full/149.png"
     
@@ -50,7 +44,6 @@
   {
     "id": 7,
     "name": "charizard",
-    "clickCount":0,
     "image":
       "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006_f3.png"
     
@@ -58,7 +51,6 @@
   {
     "id": 8,
     "name": "greninja",
-    "clickCount":0,
     "image":
       "https://vignette.wikia.nocookie.net/all-worlds-alliance/images/9/90/Greninja.png/revision/latest?cb=20180905091506"
     
@@ -66,7 +58,6 @@
   {
     "id": 9,
     "name": "arceus",
-    "clickCount":0,
     "image":
       "https://vignette.wikia.nocookie.net/pokepedia/images/0/06/Arcee.png/revision/latest?cb=20161020220212&path-prefix=pt"
     
