@@ -14,24 +14,43 @@ import './App.css';
       pokemonList,
       score:0,
       imgAlreadyClicked :[],
-      topScore:0
+      topScore:0,
+      h2Text:'Click on image to begin !!!'
     };
     
     imgClick = (id) => {
       
       if(this.state.imgAlreadyClicked.includes(id)){
-        alert(`already img clicked`);
+        // alert(`already img clicked`);
+        if(this.state.imgAlreadyClicked.length===9){
+
+            if(this.state.score>this.state.topScore){
+              this.setState({
+                topScore:this.state.score
+                
+              })
+            }
+            alert(`Game Over...Your Score : ${this.state.topScore} `);
+          }else{
+                this.setState({
+                  topScore:this.state.score,
+                  score:0,
+                  h2Text:'Incorrect guess !!!!'
+                  });
+          }
       }else{
-        this.state.imgAlreadyClicked.push(id);
-        this.setState({
-          score : this.state.score + 1
-        });
-        if(this.state.score>this.state.topScore){
+          this.state.imgAlreadyClicked.push(id);
+         
           this.setState({
-            topScore:this.state.score
-            
-          })
-        }
+             score : this.state.score + 1,
+             h2Text:'You guessed right !!!'
+          });
+          if(this.state.score>this.state.topScore){
+            this.setState({
+              topScore:this.state.score
+              
+            });
+          }
       }
             
             this.state.pokemonList.sort(() => Math.random() - 0.9);
@@ -48,7 +67,7 @@ import './App.css';
   render(){
     return (
       <div className="container-fluid">
-        <Header score = {this.state.score} topScore = {this.state.topScore} />
+        <Header score = {this.state.score} topScore = {this.state.topScore} h2Text={this.state.h2Text} />
         <HeroDiv />
         <div id="imgOuterDiv">
           {this.state.pokemonList.map(pokemonImg => (

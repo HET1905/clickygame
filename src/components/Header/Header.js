@@ -10,7 +10,7 @@ function Header(props){
                     <h1>Clicky Game</h1>
                 </div>
                 <div className="col-sm-4">
-                    <h2>Click on image to begin !</h2>
+                    <h2 id="resultH2">{props.h2Text}</h2>
                 </div>
                 <div className="col-sm-4">
                     <div id="scroeDiv">

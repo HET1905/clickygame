@@ -3,12 +3,22 @@
   font-family: sans-serif;
 }
 
-html, body, #root {
+html,
+body,
+#root {
   padding: 0;
   margin: 0;
   height: 100%;
+ 
 }
-.container-fluid{
+/* body{
+  background: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+.container-fluid {
   padding-right: 0;
   padding-left: 0;
+  background: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 }
