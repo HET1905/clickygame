@@ -19,3 +19,17 @@
 #textDiv h2 {
   font-family: "Bitter", serif;
 }
+
+@media only screen and (max-width:420px){
+
+  #heroDiv{
+    height: 350px;
+    padding:130px 0;
+  }
+  #textDiv h1{
+      font-size: 1.3em;
+  }
+  #textDiv h2{
+    font-size: 0.9em;
+  }
+}

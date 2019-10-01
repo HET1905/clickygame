@@ -3,6 +3,9 @@ import "./Header.css";
 
 function Header(props) {
   return (
+    <div className="container-fluid">
+
+    
     <div className="row" id="header">
       <div className="col-sm-4">
         <h1>Clicky Game</h1>
@@ -26,6 +29,7 @@ function Header(props) {
           </button>
         </div>
       </div>
+    </div>
     </div>
   );
 }

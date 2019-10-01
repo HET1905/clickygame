@@ -58,7 +58,7 @@ class App extends Component {
   };
 
   gameRestart = () => {
-    alert("btn clicked");
+    // alert("btn clicked");
     this.setState({
       pokemonList,
       score: 0,
