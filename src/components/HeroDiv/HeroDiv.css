@@ -33,3 +33,12 @@
     font-size: 0.9em;
   }
 }
+
+@media only screen and (max-width:330px){
+  #textDiv h2{
+    font-size: 0.7em;
+  }
+  #textDiv h1{
+    font-size: 1.1em;
+}
+}

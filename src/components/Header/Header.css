@@ -45,14 +45,15 @@ p {
 }
 
 
+
 @media only screen and (max-width:420px){
-  body{
+  /* body{
     background: red;
-  }
+  } */
   #header .col-sm-4{
     padding:0;
-  }
-  #header{
+  } 
+   #header{
     height: 110px;
   }
   #header h1{
@@ -76,5 +77,52 @@ p {
   .btnRestart{
     font-size: 0.8em;
     width: 115px;
+  }
+}
+
+
+@media only screen and (max-width:1024px) and (min-width:720px){
+ 
+  .col-sm-4{
+    padding:0;
+  }
+  #header{
+    height: 80px;
+    padding-top: 10px;
+  }
+
+  #header h1{
+    font-size: 1.6em;
+    padding: 0;
+    padding-top: 10px;
+    text-align: center;
+  }
+  #header h2{
+    padding:0;
+    padding-top: 10px;
+    font-size: 1.25em;
+    text-align: center;
+  }
+  #scroeDiv {
+    padding:0;
+    width: 100%;
+    text-align: center;
+  }
+  #scroeDiv p{
+    font-size: 1.3em;
+  }
+  .btnRestart{
+    font-size: 0.9em;
+    width: 120px;
+  }
+}
+
+
+@media only screen and (max-width:330px){
+  #header{
+    height: 140px;
+  }
+  #header h2{
+    font-size: 1em;
   }
 }
